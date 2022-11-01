@@ -1,0 +1,78 @@
+.footer{
+    font-family: Montserrat;
+    margin: 10% 10% 0% 10%;
+    
+}
+.firstLayer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoName{
+    
+    font-size: small;
+}
+.socialMedia{
+    display: flex;
+    gap: 20px;
+    color: #23A6F0;
+
+}
+
+.secondLayer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerServices p{
+    font-weight: bold;
+    color: #737373;
+    font-size: 14px;
+}
+.footerServices h4{
+    font-size: 16px;
+}
+.emailSection{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: row;
+}
+.inputField{
+    width: 250px;
+    height: 52px;
+    border: 2px solid #b1b0b0;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #737373;
+}
+.suscribeButton{
+    width: 117px;
+    height: 62px;
+    color: white;
+    background-color: #23A6F0;
+    border: 0px ;
+    border-radius: 0px 5px 5px 0px;
+}
+.suscribeButton:hover{
+    cursor: pointer;
+    width: 117px;
+    height: 65px;
+}
+.lowerFooter{
+    width:1440px;
+    height: 54px;
+    margin: 0%;
+    padding-left: 10%;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #737373;
+    font-weight: bold;
+    background-color:#FAFAFA;
+}
+.lowerFooter p i{
+    color: red;
+}

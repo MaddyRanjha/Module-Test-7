@@ -1,0 +1,48 @@
+.mainSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+}
+.logoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #737373;
+    gap: 10px;
+}
+.menu ul li{
+        list-style: none;
+        font-size: 14px;
+        font-weight: bold;
+        
+}
+.accounts{
+    font-family: Montserrat;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    color: #23A6F0;
+
+}
+.cartContainer{
+    position: relative;
+
+}
+.counterText{
+    position: absolute;
+   
+    right: -10px;
+}

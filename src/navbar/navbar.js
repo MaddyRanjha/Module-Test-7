@@ -35,7 +35,7 @@ function Navbar() {
             />
           </svg>
 
-          <b>Login/Register</b>
+          <b>Login / Register</b>
         </p>
         <svg
           width="16"

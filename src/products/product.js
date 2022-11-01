@@ -43,7 +43,7 @@ function Product() {
 
                       <div className='productCardStyle' >
                         <img className='productImageStyle' src={item.productImage} />
-                        <div className='productName'><h3>{item.productName}</h3></div>
+                        <div className='productName'><h4>{item.productName}</h4></div>
 
                         <div className='priceClass'>
                           <div>
@@ -68,6 +68,7 @@ function Product() {
                         </div>
                         
                         <button className='btnClass' onClick={()=> dispatch({type:'UPDATE_CART_COUNT'})}> ADD TO CART </button>
+                        
                     </div>
               </div>
             )

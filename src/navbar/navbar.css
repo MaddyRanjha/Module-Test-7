@@ -12,6 +12,9 @@
     gap: 100px;
 
 }
+.logoName h1{
+    /* font-family: Montserrat; */
+}
 .menu ul{
     display: flex;
     justify-content: space-between;
@@ -26,10 +29,9 @@
         font-size: 14px;
         font-weight: bold;
         
+        
 }
 .accounts{
-    font-family: Montserrat;
-    font-weight: bold;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,4 +47,7 @@
     position: absolute;
    
     right: -10px;
+}
+.counterText{
+    font-size: 12px;
 }

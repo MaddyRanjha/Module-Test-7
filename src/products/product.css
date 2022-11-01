@@ -23,6 +23,7 @@
   text-overflow: ellipsis;
   font-size: 16px;
   max-width: 200px;
+  font-family: Montserrat;
 }
   .productCardStyle{
     border: 1px solid #EEE;
@@ -61,4 +62,8 @@
     margin-top: 8px;
     border: 0px solid blue;
     color: white;
+  }
+  .btnClass:hover{
+    cursor: pointer;
+    padding: 10px 90px;
   }
